@@ -7,7 +7,7 @@ st.title("Workforce Attrition Analysis at Palo Alto Networks")
 st.write("Business Analytics | HR Analytics | Machine Learning")
 
 # Load Dataset
-df = pd.read_csv("Palo_Alto_Networks.csv")
+df = pd.read_csv("Palo Alto Networks - Palo Alto Networks.csv")
 
 st.header("Dataset Preview")
 st.dataframe(df.head())
